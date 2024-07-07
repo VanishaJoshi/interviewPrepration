@@ -4,9 +4,15 @@ package org.example.classAndObject;
 public class Car {
 
 
-    /// State
+    /// State - this is not local variable
+    // instance variable
+    /// Reference/Object Data Types -store in heap
     private String color;
+    // primitive - store in stack
     private double price;
+    /// Wrapper classes
+    // All primitive type have corresponding wrapper class.
+    private Double year;
     private String brand;
 
 
@@ -40,6 +46,8 @@ public class Car {
     }
 
     public void setBrand(String brand) {
+        // local variable and scope with in the method
+        int a= 2;
         this.brand = brand;
     }
 
