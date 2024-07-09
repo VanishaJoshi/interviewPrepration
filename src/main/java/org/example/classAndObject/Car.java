@@ -2,7 +2,8 @@ package org.example.classAndObject;
 // Class is template
 // object is instance of closs which contain different value of state of class
 public class Car {
-
+// Encapsulation :  state and behavior together in one class with restric access (private,
+    //public ,protected,deault)
 
     /// State - this is not local variable
     // instance variable
